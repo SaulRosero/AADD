@@ -2,9 +2,34 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert Title here</title>
+<title>Registro de usuario</title>
 </head>
 <body>
+
+<strong>Introduzca los datos del usuario a registrar:</strong><br/><br/>
+<form action="ServletRegistro" method="post">
+<table>
+<tr>
+	<td>Usuario:</td>
+	<td><input type="text" name="usuario" value=""/></td>
+</tr>
+<tr>
+	<td>Clave:</td>
+	<td><input type="password" name="clave" value=""/></td>
+</tr>
+<tr>
+	<td>Repita Clave:</td>
+	<td><input type="password" name="clave2" value=""/></td>
+</tr>
+<tr>
+	<td>Mail:</td>
+	<td><input type="text" name="mail" value=""/></td>
+</tr>
+<tr>
+	<td><input type="submit" value="Registrar"></td>
+</tr>
+</table>
+</form>
 
 </body>
 </html>
